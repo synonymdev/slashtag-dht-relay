@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "test": "brittle test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
     "@hyperswarm/dht": "^6.4.0",
     "@hyperswarm/dht-relay": "^0.3.0",
     "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "@synonymdev/slashtags-sdk": "^1.0.0-alpha.34",
+    "brittle": "^3.1.1"
   }
 }
