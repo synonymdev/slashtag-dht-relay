@@ -1,0 +1,26 @@
+{
+  "name": "slashtag-dht-relay",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synonymdev/slashtag-dht-relay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synonymdev/slashtag-dht-relay/issues"
+  },
+  "homepage": "https://github.com/synonymdev/slashtag-dht-relay#readme",
+  "dependencies": {
+    "@hyperswarm/dht": "^6.4.0",
+    "@hyperswarm/dht-relay": "^0.3.0",
+    "ws": "^8.11.0"
+  }
+}
